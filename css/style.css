@@ -50,3 +50,21 @@ a.dead-link:hover{
 span#ghost{
     opacity: 0.4;
 }
+
+.text{
+    position: relative;
+    text-align: center;
+
+}
+
+.text a.left{
+    color: purple;
+    transform: rotate(20deg);
+
+}
+
+.text a.left:hover::after {
+    rotate: 90deg;
+    content: "what";
+}
+
